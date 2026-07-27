@@ -57,10 +57,6 @@ ADER/
 │   ├── eval.conf
 │   └── predict.conf
 │
-├── data/
-│   ├── datasets/
-│   └── models/
-│
 ├── args.py
 ├── config_reader.py
 ├── run_ader.py
@@ -79,10 +75,10 @@ This repository provides:
 - the ADER model implementation;
 - training, evaluation, and prediction code;
 - configuration templates;
-- example data format files;
+- inline examples of the expected data format;
 - documentation for preparing ADER-compatible datasets.
 
-Users may prepare their own datasets following the example JSON format provided in `data/datasets/`.
+The AD-specific annotated dataset, pretrained encoder weights, trained checkpoints, prediction outputs, and Neo4j graph data are not included in this repository.
 
 ## Data Format
 
@@ -115,7 +111,7 @@ Entity indices in relations refer to the order of entities in the `entities` lis
 
 ## Entity and Relation Schema
 
-The file `data/datasets/types-example.json` defines entity and relation types.
+The entity and relation schema should be provided by the user through the `types_path` field in the configuration file. The schema should follow the structure shown below.
 
 Example structure:
 
@@ -172,7 +168,7 @@ python -m spacy download en_core_web_sm
 
 Pretrained encoder weights are not included in this repository.
 
-Please download the corresponding pretrained models manually and place them under `data/models/`.
+The `data/models/` directory is not included in this repository. Users should create it locally before running training, evaluation, or prediction.
 
 Expected structure:
 
