@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.idea/
+.vscode/
+
+# Environments
+.venv/
+venv/
+env/
+
+# Logs and outputs
+data/log/
+data/save/
+outputs/
+logs/
+checkpoints/
+predictions/
+
+# Pretrained models and checkpoints
+data/models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Real datasets
+data/datasets/train.json
+data/datasets/dev.json
+data/datasets/test.json
+data/datasets/*.jsonl
+
+# System files
+.DS_Store
+Thumbs.db

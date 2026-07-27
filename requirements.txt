@@ -1,0 +1,9 @@
+torch
+transformers
+numpy
+scikit-learn
+tqdm
+jinja2
+spacy
+safetensors
+tensorboardX
