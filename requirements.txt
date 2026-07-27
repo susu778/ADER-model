@@ -1,9 +1,16 @@
-torch
-transformers
-numpy
-scikit-learn
-tqdm
-jinja2
-spacy
-safetensors
-tensorboardX
+# Core deep learning and transformer models
+torch>=2.0.0
+transformers>=4.30.0,<5.0.0
+safetensors>=0.4.0
+
+# Scientific computing
+numpy>=1.21.0,<2.0.0
+scikit-learn>=1.0.0,<2.0.0
+
+# Utilities
+tqdm>=4.60.0
+Jinja2>=3.0.0
+
+# Optional: used for raw-text prediction and example rendering
+spacy>=3.5.0,<4.0.0
+tensorboardX>=2.6.0
