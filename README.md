@@ -306,8 +306,8 @@ If you use this code, please cite the ADER paper:
 
 ```bibtex
 @article{ADER2026,
-  title={ADER: A Decoupled Head-Tail Cross-Attention Model for Joint Entity and Directed Relation Extraction in Alzheimer's Disease Literature},
-  author={Su, Jinhao and Wang, Lijun and Liu, Lixue and Shi, Jiangcheng},
+  title={ADER: A Model for Joint Entity and Directed Relation Extraction from Alzheimer’s Disease Literature},
+  author={Shi, Jiangcheng and Su, Jinhao and Wang, Lijun and Liu, Lixue},
   journal={},
   year={2026}
 }
